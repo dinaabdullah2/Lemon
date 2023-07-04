@@ -1,0 +1,79 @@
+.home-swiper{
+    padding-top: 120px;
+    height: 800px;
+    background-color: #F9FBF6;
+    position: relative;
+}
+.home-swiper h3{
+    color: #325465;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center !important;
+    font-family: 'ReadexPro';
+    margin-bottom: 40px;
+}
+.carsouel-content{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    min-height: 520px;
+    border: 1px solid rgba(0, 0, 0, 0.178) ;
+}
+.carsouel-content img{
+    width: 100%;
+    height: 384px;
+    border-radius: 8px;
+}
+.prev-arrow{
+     position: absolute;
+     z-index: 1000;
+     top: 400px;
+     left: 70px;
+}
+.next-arrow{
+    position: absolute;
+    z-index: 1000;
+    top: 400px;
+    right: 70px;
+}
+.carsouel-info {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.carsouel-info h4{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "ReadexPro";
+    color: #263238;
+}
+.carsouel-info h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #263238;
+    margin: 10px 0px;
+    font-family: 'ReadexProBold';
+}
+.carsouel-info span{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #263238;
+    font-family: 'ReadexPro';
+
+}
+.stars{
+   display: flex;
+   margin-top: 20px ;
+}
+.stars img{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+.stars svg:hover  path{
+    color: #325465;
+}

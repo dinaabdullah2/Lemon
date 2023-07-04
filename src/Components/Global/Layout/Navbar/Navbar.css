@@ -1,0 +1,128 @@
+.Nav{
+    min-height: 96px;
+    background-color: var(--main) !important
+}
+.nav-brand{
+    margin-left: 80px;
+}
+.Form-search{
+    padding-left: 90px;
+    margin-top: 3px;
+    position: relative;
+}
+.search-dropdown__button button{
+    padding-right: 15px;
+    border-radius: 0 !important;
+    border-top-left-radius:8px !important;
+    border-bottom-left-radius:8px !important;
+    color: #657781;
+    background-color: #ffffff ;
+    height: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #D9D9D9;
+    font-family: "ReadexPro";
+   
+}
+.search-dropdown__button button::after{
+    margin-left: 3.88em !important;
+}
+.search-dropdown__button button:hover,.search-dropdown__button button:active{
+    background-color: #ffffff !important;
+    color: #657781 !important;
+    border: 1px solid #D9D9D9 !important;
+}
+
+.Nav-search__input{
+    
+    padding-right: 100px !important;
+    height: 32px;
+    border-radius: 0 !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "ReadexPro";
+    border-top-right-radius:8px !important;
+    border-bottom-right-radius:8px !important;
+   
+}
+.Nav-search__icon{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    color: #000000;
+    z-index: 999;
+    background: transparent !important;
+    border: none !important;
+    
+    
+}
+.Nav-search__icon img{
+    width: 16px !important;
+    height: 16px !important;
+}
+.nav-link{
+    
+    padding-left: 24px !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #FFFFFF !important;
+    font-family: "ReadexProLight";
+  
+}
+.nav__button-arabic{
+    margin-left: 20px !important;
+    width: 66px;
+    height: 32px;
+    background-color: transparent !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px !important;
+    font-family: "ReadexProLight";
+    border: 1px solid #C4E85F !important;
+}
+/* .nav__button-arabic:hover{
+    border: 1px solid #C4E85F !important;
+    background-color: #C4E85F !important;
+} */
+.nav__button-account{
+    margin-left: 20px !important;
+    width: 123px;
+    height: 32px;
+    background: #C4E85F !important;
+    border: 1px solid #C4E85F !important;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px !important;
+    font-family: "ReadexPro" !important;
+    color: var(--main) !important;
+    
+}
+/* .nav__button-account:hover{
+    background-color: transparent !important;
+    color: #FFFFFF !important;
+} */
+@media screen and (max-width: 1330px) {
+    .nav-brand{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 1262px){
+    .Form-search{
+        padding-left: 10px;
+        margin-top: 3px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 1180px){
+    .Nav-search__input{
+        
+    padding-right: 40px !important;
+    }
+    .nav-link{
+    
+        padding-left: 10px !important;}
+}

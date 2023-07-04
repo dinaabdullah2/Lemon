@@ -1,0 +1,20 @@
+.categories{
+    min-height: 200px;
+    background-color: #F9FBF6;
+    padding-bottom: 40px;
+}
+
+.add-company__header{
+    background: #C4E85F;
+    width: 100%;
+    min-height:  176px;
+    text-align: center;
+}
+.add-company__header h4{
+    margin: auto;
+    color: #1F3039;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    font-family: 'ReadexPro'
+}

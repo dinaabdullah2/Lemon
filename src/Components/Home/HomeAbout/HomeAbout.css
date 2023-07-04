@@ -1,0 +1,53 @@
+.home-about{
+     background-color: #ffffff;
+     min-height: 500px;
+     overflow: hidden;
+}
+.home-about__header{
+    position: relative;
+    
+}
+.home-about__header-icon{
+    position:absolute;
+    z-index: 999;
+    top: 200px;
+    left: 150px;
+
+}
+.home-about__info h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #325465;
+    font-family: 'ReadexProBold';
+}
+.home-about__info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'ReadexPro';
+
+}
+.home-about__info__button button{
+        
+    background: #C4E85F;
+    border: 1px solid #C4E85F;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #263238 !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'ReadexPro';
+    
+}
+@media screen and (max-width: 500px){
+.home-about__header-icon{
+    position:absolute;
+    z-index: 999;
+    top: 200px;
+    left: 5px;
+  
+
+}}

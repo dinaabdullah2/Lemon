@@ -1,0 +1,53 @@
+.home-addCompany{
+    width: 100%;
+    background-color: #F9FBF6;
+
+    min-height: 450px;
+}
+.home-addCompany__container{
+    max-width: 1200px;
+    min-height: 267px;
+    background: #C4E85F;
+    border-radius: 8px;
+    padding: 0px 30px;
+    
+    background: url(./../../../assets/imgs/addCompanyBG.png) right bottom no-repeat, #C4E85F left top repeat;
+
+}
+.home-addCompany__container h4{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "ReadexPro";
+    color: #325465;
+    margin-bottom: 20px;
+    padding-top: 40px;
+   
+}
+.home-addCompany__container h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #325465;
+    font-family: "ReadexPro";
+}
+.home-addCompany__container button{
+    background: #FFFFFF;
+    border: 1px solid #C4E85F;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-family: "ReadexPro";
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 500px){
+	.home-addCompany__container h2{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 45px;
+        color: #325465;
+        font-family: "ReadexPro";
+    }
+}
